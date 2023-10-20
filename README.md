@@ -10,11 +10,11 @@ Progetto creato per votare e tenere traccia dei voti della serie "I Soldi degli 
 ## Come testare in locale
 1. Clona il repository.
 2. Lancia `yarn install` per installare le dipendenze.
-3. Crea un progetto su Supabase con database PostgreSQL.
+3. Crea un progetto su Supabase con database PostgreSQL (Sezione Database).
 4. Crea un file `.env` con le variabili d'ambiente di esempio presenti nel file `.env.example`.
 5. Lancia `yarn prisma migrate dev` per applicare le migrazioni al database.
-6. Crea un bucket pubblico su Supabase per le immagini.
-7. Crea un progetto su supabase e lancia i comandi del file `supabase.sql`.
+6. Crea un bucket pubblico su Supabase per le immagini (Sezione Storage).
+7. Sul progetto supabase lancia i comandi del file `supabase.sql` (Sezione SQL Editor).
 8. Lancia `yarn dev` per avviare il server in locale.
 
 ## Come contribuire
